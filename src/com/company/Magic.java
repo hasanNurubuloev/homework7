@@ -1,5 +1,7 @@
 package com.company;
 
+import org.w3c.dom.ls.LSOutput;
+
 public class Magic extends Player implements SuperAdults{
     private int defence ;
 
@@ -13,6 +15,6 @@ public class Magic extends Player implements SuperAdults{
 
     @Override
     public void superAdults() {
-
+        System.out.println("Маг применил суперспособность");
     }
 }

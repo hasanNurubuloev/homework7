@@ -13,6 +13,6 @@ public class Mental extends Player implements SuperAdults {
 
     @Override
     public void superAdults() {
-
+        System.out.println("Кинетик применил суперспосоность");
     }
 }

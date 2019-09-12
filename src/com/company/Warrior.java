@@ -13,6 +13,6 @@ public class Warrior extends Player implements SuperAdults {
 
     @Override
     public void superAdults() {
-
+        System.out.println("Воин применил суперспосоность");
     }
 }
